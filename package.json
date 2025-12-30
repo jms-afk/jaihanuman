@@ -1,0 +1,35 @@
+{
+  "name": "water-pipeline-server",
+  "version": "1.0.0",
+  "description": "Water Pipeline Management System API",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.2.1",
+    "body-parser": "^1.20.2",
+    "firebase": "^12.6.0",
+    "firebase-admin": "^13.6.0",
+    "mqtt": "^5.14.1",
+    "sqlite3": "^5.1.7",
+    "ws": "^8.18.3"
+  },
+  "keywords": [
+    "water-management",
+    "pipeline",
+    "iot",
+    "firebase",
+    "websocket"
+  ],
+  "author": "",
+  "license": "ISC"
+}
